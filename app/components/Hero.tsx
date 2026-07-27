@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <motion.section
-  className="flex flex-col items-center justify-center text-center py-28 px-6"
+  className="flex flex-col items-center justify-center text-center py-20 md:py-32 px-6 max-w-7xl mx-auto"
   initial={{ opacity: 0, y: 80 }}
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.8 }}
@@ -17,7 +17,7 @@ export default function Hero() {
   Simple Growth.
 </h2>
 
-      <p className="text-gray-300 max-w-2xl mt-8 text-lg leading-8">
+      <p className="text-gray-300 max-w-2xl mt-8 text-base md:text-lg leading-7 md:leading-8 px-2">
         Premium Credit Card, Personal Loan, Business Loan &
         Financial Services across Gujarat.
       </p>
@@ -26,14 +26,14 @@ export default function Hero() {
         <a
           href="https://wa.me/917600057005"
           target="_blank"
-          className="bg-yellow-400 text-slate-900 w-full sm:w-auto px-8 py-4 rounded-xl font-bold hover:bg-yellow-300"
+          className="bg-yellow-400 text-slate-900 w-full sm:w-auto px-8 py-4 rounded-xl font-bold hover:bg-yellow-300 hover:scale-105 duration-300"
         >
           Apply Now
         </a>
 
         <a
           href="tel:+917600057005"
-          className="border border-yellow-400 text-yellow-400 w-full sm:w-auto px-8 py-4 rounded-xl font-bold hover:bg-yellow-400 hover:text-slate-900 transition"
+          className="border border-yellow-400 text-yellow-400 w-full sm:w-auto px-8 py-4 rounded-xl font-bold hover:bg-yellow-400 hover:text-slate-900 hover:scale-105 duration-300"
         >
           Call Now
         </a>
