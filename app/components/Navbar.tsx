@@ -19,11 +19,35 @@ export default function Navbar() {
           </p>
         </div>
 
-        <div className="hidden md:flex gap-8 text-gray-300 font-medium">
-          <a href="#">Home</a>
-          <a href="#services">Services</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
+        <div className="hidden md:flex gap-8 text-gray-300 font-medium items-center">
+          <a
+  href="#"
+  className="transition duration-300 hover:text-yellow-400 hover:scale-110"
+>
+  Home
+</a>
+          <a
+  href="#services"
+  className="transition duration-300 hover:text-yellow-400 hover:scale-110"
+>
+  Services
+</a>
+
+<a
+  href="#about"
+  className="transition duration-300 hover:text-yellow-400 hover:scale-110"
+>
+  About
+</a>
+
+<a
+  href="#contact"
+  className="transition duration-300 hover:text-yellow-400 hover:scale-110"
+>
+  Contact
+</a>
+          
+        
         </div>
 
         <a
