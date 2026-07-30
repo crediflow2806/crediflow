@@ -6,82 +6,105 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 border-b border-slate-800 bg-slate-950/90 backdrop-blur-md">
-      <div className="flex justify-between items-center px-6 md:px-10 py-5">
+    <>
+      <nav className="fixed top-0 left-0 w-full z-50 border-b border-white/10 bg-[#08152F]/80 backdrop-blur-2xl shadow-xl">
+        <div className="max-w-7xl mx-auto flex items-center justify-between px-6 md:px-10 py-4">
 
-        <div>
-          <h1 className="text-2xl md:text-3xl font-extrabold text-yellow-400 tracking-wide">
-            CrediFlow
-          </h1>
+          {/* Brand */}
+          <div className="flex flex-col">
+            <h1 className="text-3xl md:text-4xl font-black tracking-wide text-[#D4AF37]">
+              CrediFlow
+            </h1>
 
-          <p className="text-[10px] md:text-xs text-gray-400">
-            by Krisha Consultancy & Financial Services
-          </p>
-        </div>
+            <p className="text-[11px] md:text-xs text-gray-300">
+              by Krisha Consultancy & Financial Services
+            </p>
+          </div>
 
-        <div className="hidden md:flex gap-8 text-gray-300 font-medium items-center">
-          <a
-  href="#"
-  className="transition duration-300 hover:text-yellow-400 hover:scale-110"
->
-  Home
-</a>
-          <a
-  href="#services"
-  className="transition duration-300 hover:text-yellow-400 hover:scale-110"
->
-  Services
-</a>
+          {/* Desktop Menu */}
+          <div className="hidden md:flex items-center gap-8 text-[15px] font-medium text-gray-200">
 
-<a
-  href="#about"
-  className="transition duration-300 hover:text-yellow-400 hover:scale-110"
->
-  About
-</a>
+            <a
+              href="#"
+              className="transition-all duration-300 hover:text-[#D4AF37]"
+            >
+              Home
+            </a>
 
-<a
-  href="#contact"
-  className="transition duration-300 hover:text-yellow-400 hover:scale-110"
->
-  Contact
-</a>
-          
-        
-        </div>
+            <a
+              href="#services"
+              className="transition-all duration-300 hover:text-[#D4AF37]"
+            >
+              Services
+            </a>
 
-        <a
-          href="https://wa.me/917600057005"
-          target="_blank"
-          className="hidden md:block bg-yellow-400 text-slate-900 px-5 py-2 rounded-xl font-semibold transition duration-300 hover:bg-yellow-300 hover:scale-105"
-        >
-          Apply Now
-        </a>
+            <a
+              href="#about"
+              className="transition-all duration-300 hover:text-[#D4AF37]"
+            >
+              About
+            </a>
 
-        <button
-          className="md:hidden text-yellow-400 text-3xl"
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          {isOpen ? "✕" : "☰"}
-        </button>
-      </div>
+            <a
+              href="#contact"
+              className="transition-all duration-300 hover:text-[#D4AF37]"
+            >
+              Contact
+            </a>
+          </div>
 
-      {isOpen && (
-        <div className="md:hidden flex flex-col gap-5 px-6 pb-6 bg-slate-950 text-gray-300 font-medium">
-          <a href="#" onClick={() => setIsOpen(false)}>Home</a>
-          <a href="#services" onClick={() => setIsOpen(false)}>Services</a>
-          <a href="#about" onClick={() => setIsOpen(false)}>About</a>
-          <a href="#contact" onClick={() => setIsOpen(false)}>Contact</a>
-
+          {/* Desktop WhatsApp Button */}
           <a
             href="https://wa.me/917600057005"
             target="_blank"
-            className="bg-yellow-400 text-slate-900 text-center py-3 rounded-xl font-bold"
+            rel="noopener noreferrer"
+            className="hidden md:flex items-center rounded-full bg-[#D4AF37] px-6 py-3 font-semibold text-[#08152F] transition-all duration-300 hover:scale-105 hover:bg-[#E5C04A] shadow-lg"
           >
-            Apply Now
+            WhatsApp
           </a>
+
+          {/* Mobile Menu Button */}
+          <button
+            className="md:hidden text-3xl text-[#D4AF37]"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            {isOpen ? "✕" : "☰"}
+          </button>
+        </div>
+        {isOpen && (
+        <div className="md:hidden border-t border-white/10 bg-[#08152F]/95 backdrop-blur-2xl px-6 py-6">
+
+          <div className="flex flex-col gap-5 text-gray-200 font-medium">
+
+            <a href="#" onClick={() => setIsOpen(false)}>
+              Home
+            </a>
+
+            <a href="#services" onClick={() => setIsOpen(false)}>
+              Services
+            </a>
+
+            <a href="#about" onClick={() => setIsOpen(false)}>
+              About
+            </a>
+
+            <a href="#contact" onClick={() => setIsOpen(false)}>
+              Contact
+            </a>
+
+            <a
+              href="https://wa.me/917600057005"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 rounded-full bg-[#D4AF37] py-3 text-center font-semibold text-[#08152F] transition-all duration-300"
+            >
+              WhatsApp
+            </a>
+
+          </div>
         </div>
       )}
     </nav>
+    </>
   );
 }
