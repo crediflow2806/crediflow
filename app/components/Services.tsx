@@ -63,22 +63,25 @@ export default function Services() {
   </span>
 </button>
 
-  <div className="flex gap-2">
-
+<div className="flex gap-2 relative">
     <a
       href="tel:+917600057005"
-      className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-500 transition"
+      className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-500 hover:scale-150 hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-400/20 transition-all duration-300 premium-pulse"
     >
       <FaPhoneAlt />
+<span className="absolute inset-0 rounded-full border border-green-300/40 animate-ping"></span>
+
     </a>
 
     <a
       href="https://wa.me/917600057005"
       target="_blank"
       rel="noopener noreferrer"
-      className="w-9 h-9 rounded-full bg-green-600 flex items-center justify-center text-white hover:bg-green-500 transition"
+      className="w-9 h-9 rounded-full bg-green-600 flex items-center justify-center text-white hover:bg-green-500 hover:scale-150 hover:-translate-y-1 hover:shadow-lg hover:shadow-green-400/20 transition-all duration-300 premium-pulse"
     >
       <FaWhatsapp />
+<span className="absolute inset-0 rounded-full border border-green-300/40 animate-ping"></span>
+      
     </a>
 
   </div>
@@ -110,22 +113,25 @@ export default function Services() {
   </span>
 </button>
 
-  <div className="flex gap-2">
-
+<div className="flex gap-2 relative">
     <a
       href="tel:+917600057005"
-      className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-500 transition"
+      className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-500 hover:scale-150 hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-400/20 transition-all duration-300 premium-pulse"
     >
       <FaPhoneAlt />
+      <span className="absolute inset-0 rounded-full border border-green-300/40 animate-ping"></span>
+
     </a>
 
     <a
       href="https://wa.me/917600057005"
       target="_blank"
       rel="noopener noreferrer"
-      className="w-9 h-9 rounded-full bg-green-600 flex items-center justify-center text-white hover:bg-green-500 transition"
+      className="w-9 h-9 rounded-full bg-green-600 flex items-center justify-center text-white hover:bg-green-500 hover:scale-150 hover:-translate-y-1 hover:shadow-lg hover:shadow-green-400/20 transition-all duration-300 premium-pulse"
     >
       <FaWhatsapp />
+      <span className="absolute inset-0 rounded-full border border-green-300/40 animate-ping"></span>
+
     </a>
 
   </div>
@@ -157,22 +163,25 @@ export default function Services() {
   </span>
 </button>
 
-  <div className="flex gap-2">
-
+<div className="flex gap-2 relative">
     <a
       href="tel:+917600057005"
-      className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-500 transition"
+      className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-500 hover:scale-150 hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-400/20 transition-all duration-300 premium-pulse"
     >
       <FaPhoneAlt />
+      <span className="absolute inset-0 rounded-full border border-green-300/40 animate-ping"></span>
+
     </a>
 
     <a
       href="https://wa.me/917600057005"
       target="_blank"
       rel="noopener noreferrer"
-      className="w-9 h-9 rounded-full bg-green-600 flex items-center justify-center text-white hover:bg-green-500 transition"
+      className="w-9 h-9 rounded-full bg-green-600 flex items-center justify-center text-white hover:bg-green-500 hover:scale-150 hover:-translate-y-1 hover:shadow-lg hover:shadow-green-400/20 transition-all duration-300 premium-pulse"
     >
       <FaWhatsapp />
+      <span className="absolute inset-0 rounded-full border border-green-300/40 animate-ping"></span>
+
     </a>
 
   </div>
@@ -204,22 +213,25 @@ export default function Services() {
   </span>
 </button>
 
-  <div className="flex gap-2">
-
+<div className="flex gap-2 relative">
     <a
       href="tel:+917600057005"
-      className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-500 transition"
+      className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-500 hover:scale-150 hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-400/20 transition-all duration-300 premium-pulse"
     >
       <FaPhoneAlt />
+      <span className="absolute inset-0 rounded-full border border-green-300/40 animate-ping"></span>
+
     </a>
 
     <a
       href="https://wa.me/917600057005"
       target="_blank"
       rel="noopener noreferrer"
-      className="w-9 h-9 rounded-full bg-green-600 flex items-center justify-center text-white hover:bg-green-500 transition"
+      className="w-9 h-9 rounded-full bg-green-600 flex items-center justify-center text-white hover:bg-green-500 hover:scale-150 hover:-translate-y-1 hover:shadow-lg hover:shadow-green-400/20 transition-all duration-300 premium-pulse"
     >
       <FaWhatsapp />
+      <span className="absolute inset-0 rounded-full border border-green-300/40 animate-ping"></span>
+
     </a>
 
   </div>
@@ -250,22 +262,25 @@ export default function Services() {
   </span>
 </button>
 
-  <div className="flex gap-2">
-
+<div className="flex gap-2 relative">
     <a
       href="tel:+917600057005"
-      className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-500 transition"
+      className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-500 hover:scale-150 hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-400/20 transition-all duration-300 premium-pulse"
     >
       <FaPhoneAlt />
+      <span className="absolute inset-0 rounded-full border border-green-300/40 animate-ping"></span>
+
     </a>
 
     <a
       href="https://wa.me/917600057005"
       target="_blank"
       rel="noopener noreferrer"
-      className="w-9 h-9 rounded-full bg-green-600 flex items-center justify-center text-white hover:bg-green-500 transition"
+      className="w-9 h-9 rounded-full bg-green-600 flex items-center justify-center text-white hover:bg-green-500 hover:scale-150 hover:-translate-y-1 hover:shadow-lg hover:shadow-green-400/20 transition-all duration-300 premium-pulse"
     >
       <FaWhatsapp />
+      <span className="absolute inset-0 rounded-full border border-green-300/40 animate-ping"></span>
+
     </a>
 
   </div>
@@ -296,22 +311,25 @@ export default function Services() {
   </span>
 </button>
 
-  <div className="flex gap-2">
-
+<div className="flex gap-2 relative">
     <a
       href="tel:+917600057005"
-      className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-500 transition"
+      className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-500 hover:scale-150 hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-400/20 transition-all duration-300 premium-pulse"
     >
       <FaPhoneAlt />
+      <span className="absolute inset-0 rounded-full border border-green-300/40 animate-ping"></span>
+
     </a>
 
     <a
       href="https://wa.me/917600057005"
       target="_blank"
       rel="noopener noreferrer"
-      className="w-9 h-9 rounded-full bg-green-600 flex items-center justify-center text-white hover:bg-green-500 transition"
+      className="w-9 h-9 rounded-full bg-green-600 flex items-center justify-center text-white hover:bg-green-500 hover:scale-150 hover:-translate-y-1 hover:shadow-lg hover:shadow-green-400/20 transition-all duration-300 premium-pulse"
     >
       <FaWhatsapp />
+      <span className="absolute inset-0 rounded-full border border-green-300/40 animate-ping"></span>
+
     </a>
 
   </div>
