@@ -40,7 +40,10 @@ export default function Services() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-5">
 {/* EMI Card to Cash */}
 
-<div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-slate-900/70 to-blue-950/80 backdrop-blur-xl p-6 min-h-[280px] flex flex-col justify-between shadow-[0_10px_35px_rgba(15,23,42,0.45)] hover:border-yellow-400/70 hover:bg-gradient-to-br hover:from-white/15 hover:to-blue-900/90 hover:-translate-y-2 hover:scale-[1.08] hover:shadow-[0_20px_45px_rgba(250,204,21,0.18)] transition-all duration-300">
+<div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-slate-900/70 to-blue-950/80 backdrop-blur-xl p-6 min-h-[280px] flex flex-col justify-between shadow-[0_10px_35px_rgba(15,23,42,0.45)] hover:border-yellow-400/70 hover:bg-gradient-to-br hover:from-white/15 hover:to-blue-900/90 hover:-translate-y-2 hover:scale-[1.08] hover:shadow-[0_20px_45px_rgba(250,204,21,0.18)] transition-all duration-300 active:scale-95
+active:-translate-y-1
+active:shadow-2xl
+active:shadow-yellow-400/40">
   <div className="absolute -top-12 -right-12 w-28 h-28 rounded-full bg-yellow-400/10 blur-3xl group-hover:bg-yellow-400/20 transition-all duration-500"></div>
   <div className="w-14 h-14 rounded-3xl bg-gradient-to-br from-yellow-300 to-yellow-500 flex items-center justify-center text-slate-900 text-2xl shadow-lg shadow-yellow-400/20 group-hover:scale-110 transition-all duration-300">
     <FaMoneyBillWave />
@@ -88,16 +91,19 @@ export default function Services() {
 
 </div>
 
-</div>{/* Credit Card Bank Transfer */}
+</div>{/* Credit Card To Bank Transfer */}
 
-<div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-slate-900/70 to-blue-950/80 backdrop-blur-xl p-6 min-h-[280px] flex flex-col justify-between shadow-[0_10px_35px_rgba(15,23,42,0.45)] hover:border-yellow-400/70 hover:bg-gradient-to-br hover:from-white/15 hover:to-blue-900/90 hover:-translate-y-2 hover:scale-[1.08] hover:shadow-[0_20px_45px_rgba(250,204,21,0.18)] transition-all duration-300">
+<div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-slate-900/70 to-blue-950/80 backdrop-blur-xl p-6 min-h-[280px] flex flex-col justify-between shadow-[0_10px_35px_rgba(15,23,42,0.45)] hover:border-yellow-400/70 hover:bg-gradient-to-br hover:from-white/15 hover:to-blue-900/90 hover:-translate-y-2 hover:scale-[1.08] hover:shadow-[0_20px_45px_rgba(250,204,21,0.18)] transition-all duration-300 active:scale-95
+active:-translate-y-1
+active:shadow-2xl
+active:shadow-yellow-400/40">
 <div className="absolute -top-12 -right-12 w-28 h-28 rounded-full bg-yellow-400/10 blur-3xl group-hover:bg-yellow-400/20 transition-all duration-500"></div>
   <div className="w-14 h-14 rounded-3xl bg-gradient-to-br from-yellow-300 to-yellow-500 flex items-center justify-center text-slate-900 text-2xl shadow-lg shadow-yellow-400/20 group-hover:scale-110 transition-all duration-300">
     <FaWallet />
   </div>
 <div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent skew-x-[-20deg] group-hover:translate-x-[250%] transition-transform duration-1000"></div>
   <h3 className="text-xl font-bold text-white mt-5">
-  Credit Card Bank Transfer
+  Credit Card To Bank Transfer
 </h3>
 
   <p className="text-gray-400 text-sm mt-3">
@@ -140,7 +146,10 @@ export default function Services() {
 
 </div>{/* Credit Card Bill Rotation Service */}
 
-<div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-slate-900/70 to-blue-950/80 backdrop-blur-xl p-6 min-h-[280px] flex flex-col justify-between shadow-[0_10px_35px_rgba(15,23,42,0.45)] hover:border-yellow-400/70 hover:bg-gradient-to-br hover:from-white/15 hover:to-blue-900/90 hover:-translate-y-2 hover:scale-[1.08] hover:shadow-[0_20px_45px_rgba(250,204,21,0.18)] transition-all duration-300">
+<div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-slate-900/70 to-blue-950/80 backdrop-blur-xl p-6 min-h-[280px] flex flex-col justify-between shadow-[0_10px_35px_rgba(15,23,42,0.45)] hover:border-yellow-400/70 hover:bg-gradient-to-br hover:from-white/15 hover:to-blue-900/90 hover:-translate-y-2 hover:scale-[1.08] hover:shadow-[0_20px_45px_rgba(250,204,21,0.18)] transition-all duration-300 active:scale-95
+active:-translate-y-1
+active:shadow-2xl
+active:shadow-yellow-400/40">
 <div className="absolute -top-12 -right-12 w-28 h-28 rounded-full bg-yellow-400/10 blur-3xl group-hover:bg-yellow-400/20 transition-all duration-500"></div>
   <div className="w-14 h-14 rounded-3xl bg-gradient-to-br from-yellow-300 to-yellow-500 flex items-center justify-center text-slate-900 text-2xl shadow-lg shadow-yellow-400/20 group-hover:scale-110 transition-all duration-300">
     <FaSyncAlt />
@@ -190,7 +199,10 @@ export default function Services() {
 
 </div>{/* Reward Points Redeem */}
 
-<div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-slate-900/70 to-blue-950/80 backdrop-blur-xl p-6 min-h-[280px] flex flex-col justify-between shadow-[0_10px_35px_rgba(15,23,42,0.45)] hover:border-yellow-400/70 hover:bg-gradient-to-br hover:from-white/15 hover:to-blue-900/90 hover:-translate-y-2 hover:scale-[1.08] hover:shadow-[0_20px_45px_rgba(250,204,21,0.18)] transition-all duration-300">
+<div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-slate-900/70 to-blue-950/80 backdrop-blur-xl p-6 min-h-[280px] flex flex-col justify-between shadow-[0_10px_35px_rgba(15,23,42,0.45)] hover:border-yellow-400/70 hover:bg-gradient-to-br hover:from-white/15 hover:to-blue-900/90 hover:-translate-y-2 hover:scale-[1.08] hover:shadow-[0_20px_45px_rgba(250,204,21,0.18)] transition-all duration-300 active:scale-95
+active:-translate-y-1
+active:shadow-2xl
+active:shadow-yellow-400/40">
 <div className="absolute -top-12 -right-12 w-28 h-28 rounded-full bg-yellow-400/10 blur-3xl group-hover:bg-yellow-400/20 transition-all duration-500"></div>
   <div className="w-14 h-14 rounded-3xl bg-gradient-to-br from-yellow-300 to-yellow-500 flex items-center justify-center text-slate-900 text-2xl shadow-lg shadow-yellow-400/20 group-hover:scale-110 transition-all duration-300">
     <FaWallet />
@@ -240,7 +252,10 @@ export default function Services() {
 
 </div>{/* Loan Services */}
 
-<div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-slate-900/70 to-blue-950/80 backdrop-blur-xl p-6 min-h-[280px] flex flex-col justify-between shadow-[0_10px_35px_rgba(15,23,42,0.45)] hover:border-yellow-400/70 hover:bg-gradient-to-br hover:from-white/15 hover:to-blue-900/90 hover:-translate-y-2 hover:scale-[1.08] hover:shadow-[0_20px_45px_rgba(250,204,21,0.18)] transition-all duration-300">
+<div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-slate-900/70 to-blue-950/80 backdrop-blur-xl p-6 min-h-[280px] flex flex-col justify-between shadow-[0_10px_35px_rgba(15,23,42,0.45)] hover:border-yellow-400/70 hover:bg-gradient-to-br hover:from-white/15 hover:to-blue-900/90 hover:-translate-y-2 hover:scale-[1.08] hover:shadow-[0_20px_45px_rgba(250,204,21,0.18)] transition-all duration-300 active:scale-95
+active:-translate-y-1
+active:shadow-2xl
+active:shadow-yellow-400/40">
 <div className="absolute -top-12 -right-12 w-28 h-28 rounded-full bg-yellow-400/10 blur-3xl group-hover:bg-yellow-400/20 transition-all duration-500"></div>
   <div className="w-14 h-14 rounded-3xl bg-gradient-to-br from-yellow-300 to-yellow-500 flex items-center justify-center text-slate-900 text-2xl shadow-lg shadow-yellow-400/20 group-hover:scale-110 transition-all duration-300">
     <FaMoneyBillWave />
@@ -289,7 +304,10 @@ export default function Services() {
 
 </div>{/* Utility Bill Services */}
 
-<div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-slate-900/70 to-blue-950/80 backdrop-blur-xl p-6 min-h-[280px] flex flex-col justify-between shadow-[0_10px_35px_rgba(15,23,42,0.45)] hover:border-yellow-400/70 hover:bg-gradient-to-br hover:from-white/15 hover:to-blue-900/90 hover:-translate-y-2 hover:scale-[1.08] hover:shadow-[0_20px_45px_rgba(250,204,21,0.18)] transition-all duration-300">
+<div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-slate-900/70 to-blue-950/80 backdrop-blur-xl p-6 min-h-[280px] flex flex-col justify-between shadow-[0_10px_35px_rgba(15,23,42,0.45)] hover:border-yellow-400/70 hover:bg-gradient-to-br hover:from-white/15 hover:to-blue-900/90 hover:-translate-y-2 hover:scale-[1.08] hover:shadow-[0_20px_45px_rgba(250,204,21,0.18)] transition-all duration-300 active:scale-95
+active:-translate-y-1
+active:shadow-2xl
+active:shadow-yellow-400/40">
 <div className="absolute -top-12 -right-12 w-28 h-28 rounded-full bg-yellow-400/10 blur-3xl group-hover:bg-yellow-400/20 transition-all duration-500"></div>
   <div className="w-14 h-14 rounded-3xl bg-gradient-to-br from-yellow-300 to-yellow-500 flex items-center justify-center text-slate-900 text-2xl shadow-lg shadow-yellow-400/20 group-hover:scale-110 transition-all duration-300">
     <FaWallet />
