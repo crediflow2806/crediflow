@@ -22,14 +22,14 @@ export default function MoreServices() {
   ];
 
   return (
-    <section className="py-20 bg-slate-950">
+    <section className="py-4 bg-slate-950">
       <div className="max-w-7xl mx-auto px-6">
 
-        <div className="text-center mb-10">
+        <div className="text-center mb-6">
           <h2 className="text-4xl font-bold text-white">
             More Services
           </h2>
-          <p className="text-gray-400 mt-3">
+          <p className="text-bold-gray-400 mt-3">
             We also provide many additional financial and utility services.
           </p>
         </div>
@@ -38,7 +38,7 @@ export default function MoreServices() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="flex items-center gap-2 px-5 py-3 rounded-full bg-slate-900 border border-slate-800 text-gray-200 hover:border-yellow-400 hover:-translate-y-1 transition-all duration-300"
+              className="flex items-center gap-1 px-10 py-3 rounded-full bg-slate-900 border border-slate-800 text-gray-200 hover:border-yellow-400 hover:-translate-y-1 transition-all duration-300"
             >
               {service.icon}
               <span>{service.name}</span>

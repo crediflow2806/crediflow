@@ -28,3 +28,12 @@ body {
 html {
   scroll-behavior: smooth;
 }
+@keyframes shine {
+  0% {
+    transform: translateX(-180%) rotate(12deg);
+  }
+
+  100% {
+    transform: translateX(380%) rotate(12deg);
+  }
+}

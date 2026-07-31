@@ -11,8 +11,8 @@ import {
 
 export default function Services() {
   return (
-    <section className="py-24 bg-slate-950">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="py-10 bg-slate-950">
+      <div className="max-w-7xl mx-auto px-2">
 
         {/* Heading */}
         <motion.div
@@ -20,7 +20,7 @@ export default function Services() {
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.7 }}
   viewport={{ once: true }}
-  className="text-center mb-16"
+  className="text-center mb-8"
 >
           <span className="text-yellow-400 font-semibold tracking-widest uppercase">
             Our Services
@@ -30,50 +30,44 @@ export default function Services() {
             Financial Solutions for Everyone
           </h2>
 
-          <p className="text-gray-400 mt-6 max-w-2xl mx-auto">
-            CrediFlow provides fast, secure and reliable financial services
+          <p className="text-gray-400 mt-2 max-w-5xl mx-auto">
+            CrediFlow provides fast,secure and reliable financial services
             with professional support and complete transparency.
           </p>
         </motion.div>
 
         {/* Service Cards */}
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-5">
 {/* EMI Card to Cash */}
 
-<div className="bg-slate-900 rounded-3xl border border-slate-800 p-8 hover:border-yellow-400 hover:-translate-y-2 transition-all duration-300 shadow-xl">
-
-  <div className="w-16 h-16 rounded-full bg-yellow-400 flex items-center justify-center text-black text-3xl">
+<div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-slate-900/70 to-blue-950/80 backdrop-blur-xl p-6 min-h-[280px] flex flex-col justify-between shadow-[0_10px_35px_rgba(15,23,42,0.45)] hover:border-yellow-400/70 hover:bg-gradient-to-br hover:from-white/15 hover:to-blue-900/90 hover:-translate-y-2 hover:scale-[1.08] hover:shadow-[0_20px_45px_rgba(250,204,21,0.18)] transition-all duration-300">
+  <div className="absolute -top-12 -right-12 w-28 h-28 rounded-full bg-yellow-400/10 blur-3xl group-hover:bg-yellow-400/20 transition-all duration-500"></div>
+  <div className="w-14 h-14 rounded-3xl bg-gradient-to-br from-yellow-300 to-yellow-500 flex items-center justify-center text-slate-900 text-2xl shadow-lg shadow-yellow-400/20 group-hover:scale-110 transition-all duration-300">
     <FaMoneyBillWave />
   </div>
+<div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent skew-x-[-20deg] group-hover:translate-x-[250%] transition-transform duration-1000"></div>
+  <h3 className="text-xl font-bold text-white mt-5">
+  EMI Card to Cash
+</h3>
 
-  <h3 className="text-3xl font-bold text-white mt-6">
-    EMI Card to Cash
-  </h3>
+  <p className="text-gray-400 text-sm mt-3">
+  Fast & Secure Service
+</p>
 
-  <p className="text-gray-400 mt-4">
-    Convert your EMI Card Limit into Cash quickly with a secure,
-    transparent and hassle-free process.
-  </p>
+  <div className="flex items-center justify-between mt-6">
 
-  <ul className="mt-6 space-y-3 text-gray-300">
-    <li>✔️ Fast Processing</li>
-    <li>✔️ Secure Transaction</li>
-    <li>✔️ Instant Support</li>
-    <li>✔️ Trusted Service</li>
-  </ul>
+  <button className="group flex items-center gap-2 text-yellow-400 font-semibold text-sm hover:text-yellow-300 transition-all duration-300">
+  Know More
+  <span className="group-hover:translate-x-1 transition-transform duration-300">
+   →
+  </span>
+</button>
 
-  <div className="grid grid-cols-3 gap-3 mt-8">
-
-    <a
-      href="#contact"
-      className="bg-yellow-400 text-black text-center py-3 rounded-xl font-bold hover:bg-yellow-300 transition"
-    >
-      Apply
-    </a>
+  <div className="flex gap-2">
 
     <a
       href="tel:+917600057005"
-      className="bg-blue-700 text-white rounded-xl flex items-center justify-center hover:bg-blue-600 transition"
+      className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-500 transition"
     >
       <FaPhoneAlt />
     </a>
@@ -82,48 +76,45 @@ export default function Services() {
       href="https://wa.me/917600057005"
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-green-600 text-white rounded-xl flex items-center justify-center hover:bg-green-500 transition"
+      className="w-9 h-9 rounded-full bg-green-600 flex items-center justify-center text-white hover:bg-green-500 transition"
     >
       <FaWhatsapp />
     </a>
 
   </div>
+
+</div>
 
 </div>{/* Credit Card Bank Transfer */}
 
-<div className="bg-slate-900 rounded-3xl border border-slate-800 p-8 hover:border-yellow-400 hover:-translate-y-2 transition-all duration-300 shadow-xl">
-
-  <div className="w-16 h-16 rounded-full bg-yellow-400 flex items-center justify-center text-black text-3xl">
+<div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-slate-900/70 to-blue-950/80 backdrop-blur-xl p-6 min-h-[280px] flex flex-col justify-between shadow-[0_10px_35px_rgba(15,23,42,0.45)] hover:border-yellow-400/70 hover:bg-gradient-to-br hover:from-white/15 hover:to-blue-900/90 hover:-translate-y-2 hover:scale-[1.08] hover:shadow-[0_20px_45px_rgba(250,204,21,0.18)] transition-all duration-300">
+<div className="absolute -top-12 -right-12 w-28 h-28 rounded-full bg-yellow-400/10 blur-3xl group-hover:bg-yellow-400/20 transition-all duration-500"></div>
+  <div className="w-14 h-14 rounded-3xl bg-gradient-to-br from-yellow-300 to-yellow-500 flex items-center justify-center text-slate-900 text-2xl shadow-lg shadow-yellow-400/20 group-hover:scale-110 transition-all duration-300">
     <FaWallet />
   </div>
+<div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent skew-x-[-20deg] group-hover:translate-x-[250%] transition-transform duration-1000"></div>
+  <h3 className="text-xl font-bold text-white mt-5">
+  Credit Card Bank Transfer
+</h3>
 
-  <h3 className="text-3xl font-bold text-white mt-6">
-    Credit Card Bank Transfer
-  </h3>
+  <p className="text-gray-400 text-sm mt-3">
+  Instant Bank Transfer
+</p>
 
-  <p className="text-gray-400 mt-4">
-    Transfer your Credit Card Limit directly to your Bank Account with a secure, fast and reliable process.
-  </p>
+  <div className="flex items-center justify-between mt-6">
 
-  <ul className="mt-6 space-y-3 text-gray-300">
-    <li>✔️ Direct Bank Transfer</li>
-    <li>✔️ Safe & Secure</li>
-    <li>✔️ Fast Processing</li>
-    <li>✔️ Professional Support</li>
-  </ul>
+  <button className="group flex items-center gap-2 text-yellow-400 font-semibold text-sm hover:text-yellow-300 transition-all duration-300">
+  Know More
+  <span className="group-hover:translate-x-1 transition-transform duration-300">
+   →
+  </span>
+</button>
 
-  <div className="grid grid-cols-3 gap-3 mt-8">
-
-    <a
-      href="#contact"
-      className="bg-yellow-400 text-black text-center py-3 rounded-xl font-bold hover:bg-yellow-300 transition"
-    >
-      Apply
-    </a>
+  <div className="flex gap-2">
 
     <a
       href="tel:+917600057005"
-      className="bg-blue-700 text-white rounded-xl flex items-center justify-center hover:bg-blue-600 transition"
+      className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-500 transition"
     >
       <FaPhoneAlt />
     </a>
@@ -132,48 +123,45 @@ export default function Services() {
       href="https://wa.me/917600057005"
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-green-600 text-white rounded-xl flex items-center justify-center hover:bg-green-500 transition"
+      className="w-9 h-9 rounded-full bg-green-600 flex items-center justify-center text-white hover:bg-green-500 transition"
     >
       <FaWhatsapp />
     </a>
 
   </div>
+
+</div>
 
 </div>{/* Credit Card Bill Rotation Service */}
 
-<div className="bg-slate-900 rounded-3xl border border-slate-800 p-8 hover:border-yellow-400 hover:-translate-y-2 transition-all duration-300 shadow-xl">
-
-  <div className="w-16 h-16 rounded-full bg-yellow-400 flex items-center justify-center text-black text-3xl">
+<div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-slate-900/70 to-blue-950/80 backdrop-blur-xl p-6 min-h-[280px] flex flex-col justify-between shadow-[0_10px_35px_rgba(15,23,42,0.45)] hover:border-yellow-400/70 hover:bg-gradient-to-br hover:from-white/15 hover:to-blue-900/90 hover:-translate-y-2 hover:scale-[1.08] hover:shadow-[0_20px_45px_rgba(250,204,21,0.18)] transition-all duration-300">
+<div className="absolute -top-12 -right-12 w-28 h-28 rounded-full bg-yellow-400/10 blur-3xl group-hover:bg-yellow-400/20 transition-all duration-500"></div>
+  <div className="w-14 h-14 rounded-3xl bg-gradient-to-br from-yellow-300 to-yellow-500 flex items-center justify-center text-slate-900 text-2xl shadow-lg shadow-yellow-400/20 group-hover:scale-110 transition-all duration-300">
     <FaSyncAlt />
   </div>
+<div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent skew-x-[-20deg] group-hover:translate-x-[250%] transition-transform duration-1000"></div>
+  <h3 className="text-xl font-bold text-white mt-5">
+  Credit Card Bill Rotation
+</h3>
 
-  <h3 className="text-3xl font-bold text-white mt-6">
-    Credit Card Bill Rotation
-  </h3>
+  <p className="text-gray-400 text-sm mt-3">
+  Smart Bill Management
+</p>
 
-  <p className="text-gray-400 mt-4">
-    Rotate your Credit Card Bills smartly to maintain better cash flow with secure and reliable assistance.
-  </p>
+  <div className="flex items-center justify-between mt-6">
 
-  <ul className="mt-6 space-y-3 text-gray-300">
-    <li>✔️ Smart Bill Management</li>
-    <li>✔️ Better Cash Flow</li>
-    <li>✔️ Secure Process</li>
-    <li>✔️ Professional Support</li>
-  </ul>
+  <button className="group flex items-center gap-2 text-yellow-400 font-semibold text-sm hover:text-yellow-300 transition-all duration-300">
+  Know More
+  <span className="group-hover:translate-x-1 transition-transform duration-300">
+   →
+  </span>
+</button>
 
-  <div className="grid grid-cols-3 gap-3 mt-8">
-
-    <a
-      href="#contact"
-      className="bg-yellow-400 text-black text-center py-3 rounded-xl font-bold hover:bg-yellow-300 transition"
-    >
-      Apply
-    </a>
+  <div className="flex gap-2">
 
     <a
       href="tel:+917600057005"
-      className="bg-blue-700 text-white rounded-xl flex items-center justify-center hover:bg-blue-600 transition"
+      className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-500 transition"
     >
       <FaPhoneAlt />
     </a>
@@ -182,48 +170,45 @@ export default function Services() {
       href="https://wa.me/917600057005"
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-green-600 text-white rounded-xl flex items-center justify-center hover:bg-green-500 transition"
+      className="w-9 h-9 rounded-full bg-green-600 flex items-center justify-center text-white hover:bg-green-500 transition"
     >
       <FaWhatsapp />
     </a>
 
   </div>
+
+</div>
 
 </div>{/* Reward Points Redeem */}
 
-<div className="bg-slate-900 rounded-3xl border border-slate-800 p-8 hover:border-yellow-400 hover:-translate-y-2 transition-all duration-300 shadow-xl">
-
-  <div className="w-16 h-16 rounded-full bg-yellow-400 flex items-center justify-center text-black text-3xl">
+<div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-slate-900/70 to-blue-950/80 backdrop-blur-xl p-6 min-h-[280px] flex flex-col justify-between shadow-[0_10px_35px_rgba(15,23,42,0.45)] hover:border-yellow-400/70 hover:bg-gradient-to-br hover:from-white/15 hover:to-blue-900/90 hover:-translate-y-2 hover:scale-[1.08] hover:shadow-[0_20px_45px_rgba(250,204,21,0.18)] transition-all duration-300">
+<div className="absolute -top-12 -right-12 w-28 h-28 rounded-full bg-yellow-400/10 blur-3xl group-hover:bg-yellow-400/20 transition-all duration-500"></div>
+  <div className="w-14 h-14 rounded-3xl bg-gradient-to-br from-yellow-300 to-yellow-500 flex items-center justify-center text-slate-900 text-2xl shadow-lg shadow-yellow-400/20 group-hover:scale-110 transition-all duration-300">
     <FaWallet />
   </div>
+<div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent skew-x-[-20deg] group-hover:translate-x-[250%] transition-transform duration-1000"></div>
+  <h3 className="text-xl font-bold text-white mt-5">
+  Reward Points Redeem
+</h3>
 
-  <h3 className="text-3xl font-bold text-white mt-6">
-    Reward Points Redeem
-  </h3>
+  <p className="text-gray-400 text-sm mt-3">
+  Instant Reward Redemption
+</p>
 
-  <p className="text-gray-400 mt-4">
-    Convert your Credit Card Reward Points into valuable benefits with a quick, secure and hassle-free redemption process.
-  </p>
+  <div className="flex items-center justify-between mt-6">
 
-  <ul className="mt-6 space-y-3 text-gray-300">
-    <li>✔️ Maximum Reward Value</li>
-    <li>✔️ Instant Redemption</li>
-    <li>✔️ Secure Process</li>
-    <li>✔️ Expert Assistance</li>
-  </ul>
+  <button className="group flex items-center gap-2 text-yellow-400 font-semibold text-sm hover:text-yellow-300 transition-all duration-300">
+  Know More
+  <span className="group-hover:translate-x-1 transition-transform duration-300">
+   →
+  </span>
+</button>
 
-  <div className="grid grid-cols-3 gap-3 mt-8">
-
-    <a
-      href="#contact"
-      className="bg-yellow-400 text-black text-center py-3 rounded-xl font-bold hover:bg-yellow-300 transition"
-    >
-      Apply
-    </a>
+  <div className="flex gap-2">
 
     <a
       href="tel:+917600057005"
-      className="bg-blue-700 text-white rounded-xl flex items-center justify-center hover:bg-blue-600 transition"
+      className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-500 transition"
     >
       <FaPhoneAlt />
     </a>
@@ -232,48 +217,44 @@ export default function Services() {
       href="https://wa.me/917600057005"
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-green-600 text-white rounded-xl flex items-center justify-center hover:bg-green-500 transition"
+      className="w-9 h-9 rounded-full bg-green-600 flex items-center justify-center text-white hover:bg-green-500 transition"
     >
       <FaWhatsapp />
     </a>
 
   </div>
+
+</div>
 
 </div>{/* Loan Services */}
 
-<div className="bg-slate-900 rounded-3xl border border-slate-800 p-8 hover:border-yellow-400 hover:-translate-y-2 transition-all duration-300 shadow-xl">
-
-  <div className="w-16 h-16 rounded-full bg-yellow-400 flex items-center justify-center text-black text-3xl">
+<div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-slate-900/70 to-blue-950/80 backdrop-blur-xl p-6 min-h-[280px] flex flex-col justify-between shadow-[0_10px_35px_rgba(15,23,42,0.45)] hover:border-yellow-400/70 hover:bg-gradient-to-br hover:from-white/15 hover:to-blue-900/90 hover:-translate-y-2 hover:scale-[1.08] hover:shadow-[0_20px_45px_rgba(250,204,21,0.18)] transition-all duration-300">
+<div className="absolute -top-12 -right-12 w-28 h-28 rounded-full bg-yellow-400/10 blur-3xl group-hover:bg-yellow-400/20 transition-all duration-500"></div>
+  <div className="w-14 h-14 rounded-3xl bg-gradient-to-br from-yellow-300 to-yellow-500 flex items-center justify-center text-slate-900 text-2xl shadow-lg shadow-yellow-400/20 group-hover:scale-110 transition-all duration-300">
     <FaMoneyBillWave />
   </div>
+<div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent skew-x-[-20deg] group-hover:translate-x-[250%] transition-transform duration-1000"></div>
+  <h3 className="text-xl font-bold text-white mt-5">
+  Loan Services
+</h3>
 
-  <h3 className="text-3xl font-bold text-white mt-6">
-    Loan Services
-  </h3>
+  <p className="text-gray-400 text-sm mt-3">
+  Personal & Business Loans
+</p>
+  <div className="flex items-center justify-between mt-6">
 
-  <p className="text-gray-400 mt-4">
-    Get the right loan solution with quick approval, minimum documentation and professional guidance for all your financial needs.
-  </p>
+  <button className="group flex items-center gap-2 text-yellow-400 font-semibold text-sm hover:text-yellow-300 transition-all duration-300">
+  Know More
+  <span className="group-hover:translate-x-1 transition-transform duration-300">
+   →
+  </span>
+</button>
 
-  <ul className="mt-6 space-y-3 text-gray-300">
-    <li>✔️ Personal Loan</li>
-    <li>✔️ Business Loan</li>
-    <li>✔️ Home Loan</li>
-    <li>✔️ Mortgage Loan</li>
-  </ul>
-
-  <div className="grid grid-cols-3 gap-3 mt-8">
-
-    <a
-      href="#contact"
-      className="bg-yellow-400 text-black text-center py-3 rounded-xl font-bold hover:bg-yellow-300 transition"
-    >
-      Apply
-    </a>
+  <div className="flex gap-2">
 
     <a
       href="tel:+917600057005"
-      className="bg-blue-700 text-white rounded-xl flex items-center justify-center hover:bg-blue-600 transition"
+      className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-500 transition"
     >
       <FaPhoneAlt />
     </a>
@@ -282,50 +263,44 @@ export default function Services() {
       href="https://wa.me/917600057005"
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-green-600 text-white rounded-xl flex items-center justify-center hover:bg-green-500 transition"
+      className="w-9 h-9 rounded-full bg-green-600 flex items-center justify-center text-white hover:bg-green-500 transition"
     >
       <FaWhatsapp />
     </a>
 
   </div>
+
+</div>
 
 </div>{/* Utility Bill Services */}
 
-<div className="bg-slate-900 rounded-3xl border border-slate-800 p-8 hover:border-yellow-400 hover:-translate-y-2 transition-all duration-300 shadow-xl">
-
-  <div className="w-16 h-16 rounded-full bg-yellow-400 flex items-center justify-center text-black text-3xl">
+<div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-slate-900/70 to-blue-950/80 backdrop-blur-xl p-6 min-h-[280px] flex flex-col justify-between shadow-[0_10px_35px_rgba(15,23,42,0.45)] hover:border-yellow-400/70 hover:bg-gradient-to-br hover:from-white/15 hover:to-blue-900/90 hover:-translate-y-2 hover:scale-[1.08] hover:shadow-[0_20px_45px_rgba(250,204,21,0.18)] transition-all duration-300">
+<div className="absolute -top-12 -right-12 w-28 h-28 rounded-full bg-yellow-400/10 blur-3xl group-hover:bg-yellow-400/20 transition-all duration-500"></div>
+  <div className="w-14 h-14 rounded-3xl bg-gradient-to-br from-yellow-300 to-yellow-500 flex items-center justify-center text-slate-900 text-2xl shadow-lg shadow-yellow-400/20 group-hover:scale-110 transition-all duration-300">
     <FaWallet />
   </div>
+<div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent skew-x-[-20deg] group-hover:translate-x-[250%] transition-transform duration-1000"></div>
+  <h3 className="text-xl font-bold text-white mt-5">
+  Utility Bill Services
+</h3>
 
-  <h3 className="text-3xl font-bold text-white mt-6">
-    Utility Bill Services
-  </h3>
+  <p className="text-gray-400 text-sm mt-3">
+  Fast & Secure Bill Payments
+</p>
+  <div className="flex items-center justify-between mt-6">
 
-  <p className="text-gray-400 mt-4">
-    Pay your utility bills quickly and securely with reliable assistance and hassle-free service.
-  </p>
+  <button className="group flex items-center gap-2 text-yellow-400 font-semibold text-sm hover:text-yellow-300 transition-all duration-300">
+  Know More
+  <span className="group-hover:translate-x-1 transition-transform duration-300">
+   →
+  </span>
+</button>
 
-  <ul className="mt-6 space-y-3 text-gray-300">
-    <li>✔️ Electricity Bill</li>
-    <li>✔️ Gas Bill</li>
-    <li>✔️ Water Bill</li>
-    <li>✔️ Mobile & DTH Recharge</li>
-    <li>✔️ Credit Card Bill Payment</li>
-    <li>✔️ Loan Repayment</li>
-  </ul>
-
-  <div className="grid grid-cols-3 gap-3 mt-8">
-
-    <a
-      href="#contact"
-      className="bg-yellow-400 text-black text-center py-3 rounded-xl font-bold hover:bg-yellow-300 transition"
-    >
-      Apply
-    </a>
+  <div className="flex gap-2">
 
     <a
       href="tel:+917600057005"
-      className="bg-blue-700 text-white rounded-xl flex items-center justify-center hover:bg-blue-600 transition"
+      className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-500 transition"
     >
       <FaPhoneAlt />
     </a>
@@ -334,12 +309,14 @@ export default function Services() {
       href="https://wa.me/917600057005"
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-green-600 text-white rounded-xl flex items-center justify-center hover:bg-green-500 transition"
+      className="w-9 h-9 rounded-full bg-green-600 flex items-center justify-center text-white hover:bg-green-500 transition"
     >
       <FaWhatsapp />
     </a>
 
   </div>
+
+</div>
 
 </div>
         </div>
