@@ -15,16 +15,15 @@ export default function PartnerBanks() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
           <p className="text-yellow-400 font-semibold uppercase tracking-widest">
-            Trusted Partners
+            TRUSTED NETWORK
           </p>
 
           <h2 className="text-4xl md:text-5xl font-bold text-white mt-3">
-            Our Banking Partners
+            Leading Banks We Serve
           </h2>
 
           <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-            We work with India's leading banks and financial institutions to
-            provide reliable financial solutions.
+            We assist customers with credit cards,loans and financial services across leading banks in India.
           </p>
         </div>
 
@@ -38,6 +37,9 @@ export default function PartnerBanks() {
             </div>
           ))}
         </div>
+        <p className="text-center text-gray-400 text-sm mt-8 max-w-3xl mx-auto">
+We assist customers with services related to these banks. CrediFlow is an independent financial consultancy and does not claim official partnership unless specifically stated.
+</p>
       </div>
     </section>
   );
